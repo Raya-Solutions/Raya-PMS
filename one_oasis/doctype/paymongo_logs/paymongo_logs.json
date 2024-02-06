@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2023-11-13 19:32:44.155333",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "push_type",
+  "paymongo_message"
+ ],
+ "fields": [
+  {
+   "fieldname": "paymongo_message",
+   "fieldtype": "Text",
+   "label": "Paymongo Message"
+  },
+  {
+   "fieldname": "push_type",
+   "fieldtype": "Data",
+   "label": "Push Type",
+   "unique": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "options": "PM-LOGS-"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-15 15:30:41.381718",
+ "modified_by": "Administrator",
+ "module": "One Oasis",
+ "name": "Paymongo Logs",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guest",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
