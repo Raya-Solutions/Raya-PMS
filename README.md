@@ -1,2 +1,7 @@
-# Raya-PMS
-Property management
+## One Oasis
+
+Raya Solutions
+
+#### License
+
+MIT

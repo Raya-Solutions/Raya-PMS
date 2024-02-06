@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include oneoasis_app *.css
+recursive-include oneoasis_app *.csv
+recursive-include oneoasis_app *.html
+recursive-include oneoasis_app *.ico
+recursive-include oneoasis_app *.js
+recursive-include oneoasis_app *.json
+recursive-include oneoasis_app *.md
+recursive-include oneoasis_app *.png
+recursive-include oneoasis_app *.py
+recursive-include oneoasis_app *.svg
+recursive-include oneoasis_app *.txt
+recursive-exclude oneoasis_app *.pyc
